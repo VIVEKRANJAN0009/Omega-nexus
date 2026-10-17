@@ -1,0 +1,99 @@
+ <!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OMEGA NEXUS | VIVEK-ASI-OMEGA</title>
+<meta name="description" content="VIVEK-ASI-OMEGA: cognitive architecture research, reasoning, memory, verification and controlled improvement.">
+<style>
+:root{color-scheme:dark;--bg:#050812;--panel:#0d1425;--cyan:#64f4ff;--purple:#a78bfa;--muted:#a8b4cc}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(ellipse at 50% 0%,#14254a 0%,var(--bg) 55%);color:#f4f7ff;font-family:system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.65}
+a{color:var(--cyan)}
+nav{position:sticky;top:0;z-index:3;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:15px 6%;background:#050812eF;border-bottom:1px solid #26344d}
+.logo{font-weight:900;letter-spacing:2px;color:var(--cyan)}
+nav a{margin-left:14px;text-decoration:none;font-size:14px}
+.hero{min-height:75vh;display:grid;place-items:center;text-align:center;padding:75px 7%}
+.eyebrow{color:var(--cyan);letter-spacing:4px;font-size:12px;font-weight:800}
+h1{font-size:clamp(38px,8vw,82px);line-height:1.05;margin:18px 0;background:linear-gradient(90deg,#fff,var(--cyan),var(--purple));color:transparent;background-clip:text}
+h2{font-size:clamp(25px,4vw,38px);line-height:1.2}
+.hero p{max-width:760px;margin:20px auto;color:var(--muted);font-size:18px}
+.btn{display:inline-block;margin:10px 6px;padding:12px 19px;border-radius:9px;border:1px solid var(--cyan);text-decoration:none;font-weight:750}
+.primary{background:var(--cyan);color:#061018}
+section{padding:65px 7%;max-width:1250px;margin:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:17px}
+.card{padding:23px;background:linear-gradient(145deg,#111d33,#090e1b);border:1px solid #263b56;border-radius:15px}
+.card h3{color:var(--cyan);margin-top:0}
+.muted{color:var(--muted)}
+.stat{font-size:35px;font-weight:900;color:var(--cyan)}
+.tag{display:inline-block;padding:5px 10px;margin:4px;border:1px solid #334765;border-radius:20px;color:#cbd7ef;font-size:12px}
+.timeline{border-left:2px solid #35506e;margin-left:8px;padding-left:22px}
+footer{text-align:center;padding:35px 7%;border-top:1px solid #26344d;color:var(--muted)}
+</style>
+</head>
+<body>
+<nav><div class="logo">Ω OMEGA NEXUS</div><div><a href="#vision">Vision</a><a href="#architecture">Architecture</a><a href="#status">Status</a><a href="#roadmap">Roadmap</a></div></nav>
+<header class="hero">
+<div>
+<div class="eyebrow">VIVEK-ASI-OMEGA · COGNITIVE ARCHITECTURE RESEARCH</div>
+<h1>Beyond Today's AI.<br>Building Toward ASI.</h1>
+<p>An ambitious research project exploring an integrated cognitive architecture with reasoning, persistent memory, evidence verification and carefully controlled system improvement.</p>
+<a class="btn primary" href="#architecture">Explore Architecture ↓</a>
+<a class="btn" href="#status">Project Status</a>
+<div><span class="tag">REASONING</span><span class="tag">MEMORY</span><span class="tag">VERIFICATION</span><span class="tag">SAFETY GATES</span></div>
+</div>
+</header>
+<section id="vision">
+<div class="eyebrow">01 / THE MISSION</div><h2>A long-term path toward more capable intelligence</h2>
+<p class="muted">OMEGA is a software research effort—not a claim that artificial superintelligence has already been achieved. The objective is to develop and test components incrementally, measure their limits, and preserve human oversight over risky changes.</p>
+<div class="grid">
+<article class="card"><h3>Human-inspired cognition</h3><p>Combine language processing, reasoning, memory and evidence tracking into a coherent agent.</p></article>
+<article class="card"><h3>Measured improvement</h3><p>Evaluate proposed changes against regression tests before considering them for promotion.</p></article>
+<article class="card"><h3>Human oversight</h3><p>Require explicit approval for protected changes and preserve rollback paths wherever implemented.</p></article>
+</div>
+</section>
+<section id="architecture">
+<div class="eyebrow">02 / SYSTEM ARCHITECTURE</div><h2>From input to a checked response</h2>
+<div class="grid">
+<article class="card"><h3>01 · Cognitive Core</h3><p>Coordinates the agent's processing and integrates available components.</p><span class="tag">core/</span></article>
+<article class="card"><h3>02 · Language Layer</h3><p>Connects language-model output with structured processing and supported language patterns.</p><span class="tag">language model</span></article>
+<article class="card"><h3>03 · Reasoning</h3><p>Includes symbolic propositional logic and adapters for selected reasoning tasks. Natural-language coverage remains limited.</p><span class="tag">reasoning/</span></article>
+<article class="card"><h3>04 · Persistent Memory</h3><p>Stores and recalls selected information across runs using the implemented memory layer.</p><span class="tag">memory/</span></article>
+<article class="card"><h3>05 · Evidence & Verification</h3><p>Tracks evidence types, checks consistency and flags unsupported claims. These checks do not guarantee truth.</p><span class="tag">verification/</span></article>
+<article class="card"><h3>06 · Evaluation & Safety</h3><p>Runs tests on candidates and supports gated promotion and rollback workflows.</p><span class="tag">evaluation/</span></article>
+</div>
+</section>
+<section id="status">
+<div class="eyebrow">03 / PROJECT SNAPSHOT</div><h2>Repository scan</h2>
+<p class="muted">The following counts were reported by the local project scan when this website was generated. They are not a live connection to the repository.</p>
+<div class="grid">
+<div class="card"><div class="stat">109</div><div>Python files</div></div>
+<div class="card"><div class="stat">8,887</div><div>Python lines</div></div>
+<div class="card"><div class="stat">49</div><div>Test files</div></div>
+<div class="card"><div class="stat">40</div><div>Saved JSON reports</div></div>
+</div>
+<h2 style="margin-top:38px">Testing and transparency</h2>
+<div class="card">
+<p><strong>Previously reported test runs:</strong> 263 regression tests passed; a separate focused safety run reported 41 passed. Other targeted runs reported 40 and 37 passed. These runs may overlap and must not be added together as unique tests.</p>
+<p class="muted">Results are historical project outputs, not a claim that every capability is correct. Logic coverage is bounded; language translation, quantifiers and general reasoning require further evaluation. Check the repository's latest reports for current results.</p>
+</div>
+</section>
+<section id="roadmap">
+<div class="eyebrow">04 / ROADMAP</div><h2>Build. Test. Improve. Verify.</h2>
+<div class="timeline">
+<h3>Phase 1 — Cognitive foundation</h3><p class="muted">Strengthen memory, reasoning, language understanding, evidence handling and repeatable benchmarks.</p>
+<h3>Phase 2 — Controlled improvement</h3><p class="muted">Generate candidate changes, test in isolation, reject failed regressions, require approval and verify rollback.</p>
+<h3>Phase 3 — Human-centered control</h3><p class="muted">Expand safety evaluation, permissions, monitoring and human approval before consequential actions.</p>
+<h3>Long-term research</h3><p class="muted">Investigate broader learning, planning, tool use and distributed execution only as validated components and resources permit.</p>
+</div>
+</section>
+<section>
+<div class="eyebrow">05 / PROJECT LINKS</div><h2>Explore the work</h2>
+<div class="grid">
+<article class="card"><h3>Source Repository</h3><p>Inspect source files and project changes.</p><a href="https://github.com/VIVEKRANJAN0009/Omega-nexus">Open GitHub →</a></article>
+<article class="card"><h3>Research principle</h3><p>Make progress measurable. Keep limitations visible. Protect human oversight.</p></article>
+</div>
+</section>
+<footer>OMEGA NEXUS · VIVEK-ASI-OMEGA<br>Independent cognitive architecture research · Vision is not a claim of completed ASI.</footer>
+</body>
+ </html>
